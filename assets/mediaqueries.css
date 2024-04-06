@@ -41,11 +41,16 @@
     margin: 0 auto 2rem;
     justify-content: center;
     
+    
   }
   .about-containers {
     margin-top: 0;
   }
 } 
+
+.btn-container {
+  justify-content: center;
+  }
 
 @media screen and (max-width: 600px) {
   #contact, footer {
@@ -63,16 +68,52 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
+
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+    justify-content: center;
   }
+  
   .contact-info-container {
     margin: 0;
   }
   .contact-info-container p,
   .nav-links a{
     font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.5rem;
+    }
+
+  .logo {
+    font-size:1.5rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vh;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+
+  /* mobile일때 Lorem ipsum paragraph takes the whole width of the screen */
+  .text-container {
+    text-align : justify;
+  }
+  
+  .section__text__p1 {
+    padding-top: 2rem;
   }
 }
